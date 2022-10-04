@@ -1,0 +1,42 @@
+//sumit vai's set up environment
+{
+  // Theme
+  "workbench.colorTheme": "Dracula Soft",
+
+  // config related to code formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "javascript.validate.enable": false, //disable all built-in syntax checking
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": true
+  },
+  "eslint.alwaysShowStatus": true,
+  // emmet
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "json.schemas": []
+}
+//{
+//     "files.autoSave": "onWindowChange",
+//     "editor.cursorStyle": "line-thin",
+//     "editor.wordWrap": "on",
+//     "workbench.colorCustomizations": {
+//         "activityBar.background": "#515251",
+//         "toolbar.hoverBackground": "#3f4919",
+//         "activityBar.foreground" : "#c1aff3",
+
+//     }
+
+// }
